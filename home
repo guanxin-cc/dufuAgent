@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杜甫《蜀相》专属智能体</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background: #f5f0e6;
+            background-image: url("https://img0.baidu.com/it/u=389113111,1111111111&fm=253&fmt=auto&app=138&f=JPEG?w=1920&h=1080");
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.95);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #8b4513;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .poem {
+            text-align: center;
+            color: #333;
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .chat-box {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #d4b89a;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .tips {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>诗圣杜甫 · 《蜀相》专属智能体</h1>
+        <p class="subtitle">丞相祠堂何处寻？锦官城外柏森森</p >
+        <div class="poem">
+            丞相祠堂何处寻，锦官城外柏森森。<br>
+            映阶碧草自春色，隔叶黄鹂空好音。<br>
+            三顾频烦天下计，两朝开济老臣心。<br>
+            出师未捷身先死，长使英雄泪满襟。
+        </div>
+        <div class="chat-box">
+            <!-- 👇 把你扣子的 Web SDK 链接替换到这里 -->
+            <iframe src="code.coze.cn/web-sdk/7629251556621385743"></iframe>
+        </div>
+        <p class="tips">💡 直接在对话框提问《蜀相》相关问题，即可获得杜甫风格的专业解答</p >
+    </div>
+</body>
+</html>
